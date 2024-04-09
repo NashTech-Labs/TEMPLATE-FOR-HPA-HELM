@@ -15,7 +15,7 @@ spec:
       name: cpu
       target:
         type: Utilization
-      averageUtilization: {{ .Values.hpa.targetCPUUtilizationPercentage }}
+        averageUtilization: {{ .Values.hpa.targetCPUUtilizationPercentage }}
   - type: Resource
     resource:
       name: memory
